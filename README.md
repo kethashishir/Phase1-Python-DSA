@@ -9,4 +9,5 @@
 - `projects/` → Mini projects (calculator, web scraper, data analysis)
 
 ## ✅ Daily Log
-- **Sep 3, 2025**: Repo setup completed 🎉
+- **Sep 3**: Repo setup + Python basics + solved LeetCode #1 (Two Sum)🎉
+
