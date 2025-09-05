@@ -9,5 +9,7 @@
 - `projects/` → Mini projects (calculator, web scraper, data analysis)
 
 ## ✅ Daily Log
-- **Sep 3**: Repo setup + Python basics + solved LeetCode #1 (Two Sum)🎉
+- **Sep 3**: Repo setup + Python basics + solved LeetCode #1 (Two Sum)
+- **Sep 4**: Python Funstions + solved LeetCode #217 (Contains Duplicate) & #242 (Valid Anagram) 
+
 
