@@ -6,6 +6,7 @@ def greet(name):
 print(greet("Alice"))
 
 # Function with default argument
+
 def power(base, exponent=2):
     return base ** exponent
 
