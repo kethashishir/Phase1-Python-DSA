@@ -1,5 +1,6 @@
 # LeetCode 35: Search Insert Position
 # Link: https://leetcode.com/problems/search-insert-position/
+# Difficulty: Easy
 # Approach: Binary search to find target or correct insert index
 # Time Complexity: O(log n)
 # Space Complexity: O(1)
