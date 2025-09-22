@@ -28,4 +28,5 @@ class Solution(object):
 
 # Example run
 print(Solution().mySqrt(4))   # Output: 2
-print(
+print(Solution().mySqrt(8))   # Output: 2
+print(Solution().mySqrt(1))   # Output: 1
