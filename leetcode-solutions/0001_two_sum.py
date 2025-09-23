@@ -1,8 +1,8 @@
 # LeetCode 1: Two Sum
 # Link: https://leetcode.com/problems/two-sum/
-# Approach: Brute Force (check all pairs)
-# Time Complexity: O(n^2)
-# Space Complexity: O(1)
+# Approach: Use hash table (dictionary) to store complements
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 
 class Solution(object):
     def twoSum(self, nums, target):
@@ -11,10 +11,16 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        values = {}
+
         for i in range(len(nums)):
-            for j in range(i+1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+            x = target - nums[i]
+            if x in values:
+                return [i, values[x]]
+            else:
+                values[nums[i]] = i
 
 # Example run
-print(Solution().twoSum([2, 7, 11, 15], 9))  # Output: [0, 1]
+print(Solution().twoSum([2,7,11,15], 9))   # Output: [1, 0] (order may vary)
+print(Solution().twoSum([3,2,4], 6))       # Output: [2, 1]
+print(Solution().twoSum([3,3], 6))         # Output: [1, 0]
